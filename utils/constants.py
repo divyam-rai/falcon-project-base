@@ -1,10 +1,10 @@
 import sys
-BASE_PATH = "/Users/divyam/Documents/projects/falcon-project-base/"
+BASE_PATH = "/usr/src/app"
 sys.path.append(BASE_PATH)
 
 LOGGER = {
-    "test_endpoint" : BASE_PATH + "logs/test_endpoint.log",
-    "authorization" : BASE_PATH + "logs/authorization.log"
+    "test_endpoint" : BASE_PATH + "/logs/test_endpoint.log",
+    "authorization" : BASE_PATH + "/logs/authorization.log"
 }
 
 REDIS_HOST = "10.10.14.125"
