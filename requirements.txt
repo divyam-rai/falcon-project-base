@@ -1,5 +1,7 @@
 falcon==2.0.0
 falcon-auth==1.1.0
+gevent==20.6.2
+greenlet==0.4.16
 gunicorn==20.0.4
 pycrypto==2.6.1
 PyJWT==1.7.1

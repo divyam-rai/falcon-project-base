@@ -1,5 +1,6 @@
 import sys
 BASE_PATH = "/usr/src/app"
+#BASE_PATH = "/Users/divyam/Documents/projects/falcon-project-base"
 sys.path.append(BASE_PATH)
 
 LOGGER = {
